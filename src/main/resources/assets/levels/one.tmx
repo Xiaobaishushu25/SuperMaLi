@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="100" height="18" tilewidth="37" tileheight="37" infinite="0" nextlayerid="3" nextobjectid="115">
+ <tileset firstgid="1" name="ground" tilewidth="37" tileheight="37" tilecount="1" columns="1">
+  <image source="../textures/map/ground.png" width="70" height="37"/>
+ </tileset>
+ <tileset firstgid="2" name="brick" tilewidth="37" tileheight="37" tilecount="1" columns="1">
+  <image source="../textures/map/brick.png" width="37" height="37"/>
+ </tileset>
+ <tileset firstgid="3" name="what" tilewidth="37" tileheight="37" tilecount="1" columns="1">
+  <image source="../textures/map/what.png" width="37" height="37"/>
+ </tileset>
+ <tileset firstgid="4" name="hill" tilewidth="37" tileheight="37" tilecount="8" columns="4">
+  <image source="hill.png" width="181" height="80"/>
+ </tileset>
+ <tileset firstgid="12" name="pipe1" tilewidth="71" tileheight="69" tilecount="1" columns="1">
+  <image source="pipe1.png" width="71" height="69"/>
+ </tileset>
+ <tileset firstgid="13" name="pipe2" tilewidth="69" tileheight="139" tilecount="1" columns="1">
+  <image source="pipe2.png" width="69" height="139"/>
+ </tileset>
+ <tileset firstgid="14" name="gan" tilewidth="35" tileheight="199" tilecount="1" columns="1">
+  <image source="gan.png" width="35" height="199"/>
+ </tileset>
+ <layer id="1" name="图块层 1" width="100" height="18">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,5,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,8,9,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,9,10,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="41" type="brick" gid="2" x="518" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="42" type="brick" gid="2" x="555" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="43" type="brick" gid="2" x="592" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="44" type="brick" gid="2" x="666" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="45" type="brick" gid="2" x="703" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="46" type="brick" gid="2" x="407" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="47" type="brick" gid="2" x="370" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="48" type="brick" gid="2" x="444" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="49" type="what" gid="3" x="481" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="1"/>
+    <property name="type" value="no"/>
+   </properties>
+  </object>
+  <object id="50" type="what" gid="3" x="629" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value="bigger"/>
+   </properties>
+  </object>
+  <object id="51" type="what" gid="3" x="222" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="1"/>
+    <property name="type" value="no"/>
+   </properties>
+  </object>
+  <object id="52" type="what" gid="3" x="555" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="1"/>
+    <property name="type" value="no"/>
+   </properties>
+  </object>
+  <object id="56" type="ground" x="0" y="555" width="1480" height="37"/>
+  <object id="62" type="pipe" gid="12" x="851" y="555" width="71" height="69">
+   <properties>
+    <property name="zindex" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="63" type="pipe" gid="13" x="1221" y="555" width="69" height="139">
+   <properties>
+    <property name="zindex" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="66" type="fun" x="962" y="518" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="68" type="sea" x="1480" y="629" width="37" height="37"/>
+  <object id="69" type="sea" x="1517" y="629" width="37" height="37"/>
+  <object id="70" type="sea" x="1554" y="629" width="37" height="37"/>
+  <object id="71" type="sea" x="1591" y="629" width="37" height="37"/>
+  <object id="76" type="ground" x="1628" y="555" width="962" height="37"/>
+  <object id="77" type="what" x="1369" y="444" width="37" height="37" visible="0">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value="mushroom"/>
+   </properties>
+  </object>
+  <object id="78" type="brick" gid="2" x="1776" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="79" type="brick" gid="2" x="1739" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="80" type="brick" gid="2" x="1813" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="81" type="brick" gid="2" x="1850" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="82" type="brick" gid="2" x="1850" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="83" type="brick" gid="2" x="1887" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="85" type="brick" gid="2" x="1961" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="86" type="brick" gid="2" x="1998" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="87" type="brick" gid="2" x="2109" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="88" type="brick" gid="2" x="2146" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="89" type="brick" gid="2" x="2183" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="90" type="what" gid="3" x="1887" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value="getbullet"/>
+   </properties>
+  </object>
+  <object id="91" type="what" gid="3" x="1924" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="1"/>
+    <property name="type" value="no"/>
+   </properties>
+  </object>
+  <object id="92" type="brick" gid="2" x="1924" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="93" type="brick" gid="2" x="1961" y="481" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="94" type="brick" gid="2" x="2035" y="370" width="37" height="37">
+   <properties>
+    <property name="money" type="int" value="0"/>
+    <property name="type" value=""/>
+   </properties>
+  </object>
+  <object id="95" type="fun" x="703" y="518" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="96" type="fun" x="1998" y="296" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="98" type="fun" x="2405" y="518" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="99" type="fun" x="1887" y="407" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="100" type="fun" x="2479" y="518" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="101" type="fun" x="518" y="407" width="37" height="37">
+   <properties>
+    <property name="id" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="103" type="trigger" x="74" y="0" width="285" height="552">
+   <properties>
+    <property name="id" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="104" type="trigger" x="1369" y="0" width="32.5294" height="553">
+   <properties>
+    <property name="id" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="105" type="pipe" x="851" y="485" width="71" height="69">
+   <properties>
+    <property name="zindex" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="107" type="flower" x="862" y="487" width="50" height="55"/>
+  <object id="112" type="ground" x="2590" y="555" width="851" height="37"/>
+  <object id="113" type="gan" gid="14" x="3145" y="555" width="35" height="199"/>
+ </objectgroup>
+</map>

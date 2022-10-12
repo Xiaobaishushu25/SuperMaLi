@@ -1,0 +1,11 @@
+package xbss.gameEnum
+
+/**
+ * @author  Xbss
+ * @create 2022-09-28-12:55
+ * @version  1.0
+ * @describe GREENS,SEA,SNOW,STONE,BORDER,BULLET,ENEMY,ITEM,FLAG
+ */
+enum class GameType {
+    PLAYER,BRICK,GROUND,GAN,WHAT,PIPE,TRIGGER,FLOWER,GREENS,SEA,SNOW,STONE,BORDER,BULLET,ENEMY,ITEM,FLAG, NPC;
+}
